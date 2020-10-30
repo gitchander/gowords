@@ -1,0 +1,16 @@
+file:
+	words_big_ru.txt
+source:
+	https://github.com/danakt/russian-words
+	russian.txt
+
+Convert encoding:
+
+$ iconv -f cp1251 -t utf8 1.txt -o 2.txt
+$ iconv -f cp1251 -t utf8 src.txt -o dst.txt
+
+examples:
+
+$ ./words -filename nounlist_en.txt -chars hello
+$ ./words -filename nounlist_ru.txt -chars фывапро
+$ ./words -filename words_big_ru.txt -chars тсрткеьа
