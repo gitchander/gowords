@@ -11,6 +11,6 @@ $ iconv -f cp1251 -t utf8 src.txt -o dst.txt
 
 examples:
 
-$ ./words -filename nounlist_en.txt -chars hello
-$ ./words -filename nounlist_ru.txt -chars фывапро
-$ ./words -filename words_big_ru.txt -chars тсрткеьа
+$ ./words -filename samples/nounlist_en.txt -chars hello
+$ ./words -filename samples/nounlist_ru.txt -chars фывапро
+$ ./words -filename samples/words_big_ru.txt -chars тсрткеьа
